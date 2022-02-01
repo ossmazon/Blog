@@ -8,6 +8,7 @@ body{
    background-color: gray;
    font-family: 'roboto','sans-serif';
 }
+/* before any url use ../ otherwise, git-hub won't read the file */
 .container{
     width: 100%;
     min-width: 320px;
