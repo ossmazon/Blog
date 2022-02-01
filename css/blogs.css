@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+   width: 100%;
+   background-color: white;
+   font-family: 'roboto','sans-serif';
+}
+.container{
+    width: 100%;
+    min-width: 320px;
+    display: grid;
+    grid-template-rows: 50px 100px auto 1fr auto;
+    grid-template-areas:    "header-container"
+                            "nav-container"
+                            "main-container"
+                            "footer-container";
+   
+}
+.header-container{
+    padding-right: 50px;
+    background: #48cfad;
+    grid-area: header-container;
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.nav-container{
+    background: white;
+    grid-area: nav-container;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "logo about-me";
+   
+   
+   
+    
+}
+.logo{
+    background-image: url("/assets/img/Logo-negro.png");
+
+    background-size:contain;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    grid-area: logo;
+}
+
+.about-me{
+    grid-area: about-me;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+    
+    
+}
+.about-me a:hover{
+    color:gray;
+}
+.about-me a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black  ;
+}
+.facebook-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/001-facebook.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+
+.twitter-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/002-twitter.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.instagram-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/011-instagram.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.linkedin-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/010-linkedin.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.git-github-icon{
+    display: inline;
+    background-image: url("/assets/icons/github.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.facebook-icon:hover{
+    filter: invert(0%);
+}
+.instagram-icon:hover{
+    filter: invert(0%);
+}
+.twitter-icon:hover{
+    filter: invert(0%);
+}
+.linkedin-icon:hover{
+    filter: invert(0%);
+}
+.git-github-icon:hover{
+    filter: invert(0%);
+}
+
+.footer-container{
+    width: 100%;
+    grid-area: footer-container;
+    display: grid;
+    grid-template-areas: "footer-color "
+                        "footer-main";
+    
+   
+
+}
+.footer-color {
+    grid-area: footer-color;
+    padding: 25px;
+    background:#48cfad ;
+}
+.footer-main{
+    grid-area: footer-main;
+    padding: 30px 50px 40px;
+    background: black;
+ 
+}
+.footer-main p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img{
+    width: 100%;
+
+}
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom:20px ;
+    
+}
+.blogpost-main-container h1{
+    padding: 20px 0 20px;
+    font-size: 35px;
+}
+.contact-main-container{
+    padding: 100px 100px 150px;
+    background: #e0e3ea;
+    display: grid;
+    grid-template-areas:    "contact-left   contact-right";
+    gap: 20px;
+    
+    
+}
+.contact-left{
+    grid-area: contact-left;
+    display: grid;
+    grid-template-areas: "img-container main-contenido";
+    gap: 5px;
+}
+.contact-left img{
+    width: 70px;
+
+}
+.img-container{
+    grid-area: img-container;
+}
+.main-contenido{
+    grid-area: main-contenido;
+}
+.main-contenido a {
+    border-bottom: 1px solid black;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+.main-contenido p {
+   padding-top: 10px;
+    
+}
+.contact-right{
+    grid-area: contact-right;
+}
+.contact-right img{
+    width: 70px;
+
+}
+.contact-right{
+    grid-area: contact-right;
+    display: grid;
+    grid-template-areas: "img-container-right main-contenido-right";
+    gap: 5px;
+}
+.img-container-right{
+    grid-area: img-container-right;
+}
+.main-contenido-right{
+    grid-area: main-contenido-right;
+}
+.main-contenido-right a{
+    border-bottom: 1px solid black;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.main-contenido-right p{
+    padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    
+    
+    .contact-main-container{
+        
+        grid-template-areas:    "contact-left"
+                                "contact-right";
+        
+        
+    }
+}

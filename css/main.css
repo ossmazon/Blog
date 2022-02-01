@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+   min-height: 100vh;
+   background-color: black;
+   font-family: 'roboto',sans-serif;
+    
+}
+.container{
+    width: 100%;
+    min-width: 320px;
+    display: grid;
+    grid-template-rows: 50px 100px 1fr;
+    grid-template-areas:    "header-container"
+                            "nav-container"
+                            "main-container";
+}
+.header-container{
+    padding-right: 20px;
+    background: #48cfad;
+    grid-area: header-container;
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.nav-container{
+    background: white;
+    grid-area: nav-container;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "logo about-me";
+   
+   
+   
+    
+}
+.logo{
+    background-image: url("/assets/img/Logo-negro.png");
+
+    background-size:contain;
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.logo img{
+    grid-area: logo;
+    
+    
+    
+}
+.about-me{
+    grid-area: about-me;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+    
+    
+}
+.about-me a:hover{
+    color:gray;
+}
+.about-me a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black  ;
+}
+.main-container{
+    color: white;
+    background: black;
+    background-image: url(/assets/img/Cover.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    grid-area: main-container;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:    "texto"
+                            "button";
+    justify-items: center;
+    align-items: center;
+
+}
+.main-container .texto{
+    grid-area: texto;
+    
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+
+}
+.main-container .button{
+    background: #48cfad;
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.main-container .button a{
+    color: black;
+    font-size: 25px ;
+    font-weight: bold;
+    display: inline;
+    
+  
+}
+.button:hover{
+    background-color: #2aad82;
+}
+.facebook-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/001-facebook.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.facebook-icon:hover{
+    filter: invert(0%);
+}
+.instagram-icon:hover{
+    filter: invert(0%);
+}
+.twitter-icon:hover{
+    filter: invert(0%);
+}
+.linkedin-icon:hover{
+    filter: invert(0%);
+}
+.git-github-icon:hover{
+    filter: invert(0%);
+}
+.twitter-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/002-twitter.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.instagram-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/011-instagram.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.linkedin-icon{
+    display: inline;
+    background-image: url("/assets/icons/svg/010-linkedin.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
+.git-github-icon{
+    display: inline;
+    background-image: url("/assets/icons/github.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(1000%) ;
+
+}
