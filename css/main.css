@@ -78,7 +78,7 @@ body{
 .main-container{
     color: white;
     background: black;
-    background-image: url("./assets/img/Cover.png");
+    background-image: url("../assets/img/Cover.png");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
