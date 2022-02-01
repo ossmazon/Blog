@@ -45,7 +45,7 @@ body{
     
 }
 .logo{
-    background-image: url("/assets/img/Logo-negro.png");
+    background-image: url("../assets/img/Logo-negro.png");
 
     background-size:contain;
     background-position:left;
@@ -74,7 +74,7 @@ body{
 }
 .facebook-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/001-facebook.svg");
+    background-image: url("../assets/icons/svg/001-facebook.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ body{
 
 .twitter-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/002-twitter.svg");
+    background-image: url("../assets/icons/svg/002-twitter.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body{
 }
 .instagram-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/011-instagram.svg");
+    background-image: url("../assets/icons/svg/011-instagram.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body{
 }
 .linkedin-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/010-linkedin.svg");
+    background-image: url("../assets/icons/svg/010-linkedin.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ body{
 }
 .git-github-icon{
     display: inline;
-    background-image: url("/assets/icons/github.png");
+    background-image: url("../assets/icons/github.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
