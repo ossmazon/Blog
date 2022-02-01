@@ -46,7 +46,7 @@ body{
     
 }
 .logo{
-    background-image: url("/assets/img/Logo-negro.png");
+    background-image: url("../assets/img/Logo-negro.png");
 
     background-size:contain;
     background-position:left;
@@ -75,7 +75,7 @@ body{
 }
 .facebook-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/001-facebook.svg");
+    background-image: url("../assets/icons/svg/001-facebook.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body{
 
 .twitter-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/002-twitter.svg");
+    background-image: url("../assets/icons/svg/002-twitter.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ body{
 }
 .instagram-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/011-instagram.svg");
+    background-image: url("../assets/icons/svg/011-instagram.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body{
 }
 .linkedin-icon{
     display: inline;
-    background-image: url("/assets/icons/svg/010-linkedin.svg");
+    background-image: url("../assets/icons/svg/010-linkedin.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body{
 }
 .git-github-icon{
     display: inline;
-    background-image: url("/assets/icons/github.png");
+    background-image: url("../assets/icons/github.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-1 span{
-    background-image: url("/assets/img/post-1.png");
+    background-image: url("../assets/img/post-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -287,7 +287,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-2 span{
-    background-image: url("/assets/img/post-2.png");
+    background-image: url("../assets/img/post-2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -310,7 +310,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-3 span{
-    background-image: url("/assets/img/post-3.png");
+    background-image: url("../assets/img/post-3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -333,7 +333,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-4 span{
-    background-image: url("/assets/img/post-1.png");
+    background-image: url("../assets/img/post-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -356,7 +356,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-5 span{
-    background-image: url("/assets/img/post-2.png");
+    background-image: url("../assets/img/post-2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -379,7 +379,7 @@ body{
     grid-template-rows: 300px 60px 120px 60px;
 }
 .blog-6 span{
-    background-image: url("/assets/img/post-3.png");
+    background-image: url("../assets/img/post-3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
